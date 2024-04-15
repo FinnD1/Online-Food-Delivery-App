@@ -1,0 +1,46 @@
+name: flutter_basic_2024
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  dots_indicator: ^2.1.1
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1 #it help us to use SVG in ur app
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  #   - images/a_dot_ham.jpeg
+
+
+fonts:
+  - family: Raleway
+    fonts:
+      - asset: assests/fonts/Raleway-Regular.ttf
+      - asset: assests/fonts/Raleway-Italic.ttf
+        style: italic
+  - family: RobotoMono
+    fonts:
+      - asset: assests/fonts/RobotoMono-Regular.ttf
+      - asset: assests/fonts/RobotoMono-Bold.ttf
+        weight: 700
+  
